@@ -29,13 +29,11 @@ section.description-main p{
 }
 
 .big-title{
-
     padding: 40px;
   
     font-size: 2.1em;
     font-size: 'Open Sans', sans-serif;
     font-family: 'Open Sans', sans-serif;
-
 }
 
 p.blue-square.start2{
@@ -46,8 +44,7 @@ p.blue-square.start2{
 .blue-square{
     background-color: blue;
     color: white;
-    padding: 8px;
-    
+    padding: 8px;  
 }
 
 .start1{
@@ -83,12 +80,90 @@ header{
     background-color: white;
 }
 
+.size-section{
+    width: 280px;
+    height: 760px;
+    border: 1px solid grey;
+
+    
+    margin-left: 40px;
+}
+
+.second-main-container{
+    margin: 150px 130px;
+    font-family:'Open Sans', sans-serif; 
+}
+
+div h2{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    font-size: 2em;
+}
+
+nav input{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.little-header{
+    border-bottom: 1px solid gray;
+    height: 40px;
+    text-align: center;
+    font-size: smaller;
+    padding-top: 13px;
+}
+
+.offerta-padding{
+    padding: 15px 20px;
+    font-size: 0.8em;
+}
+
+div.offerta-padding h2,h4,p{
+    margin: 20px 0;
+}
 
 
+i.fas.fa-check{
+    color: blue;
+}
 
+.team-enterprise{
+    width: 75%;
+    max-width: 1200px;
+    margin: 0 auto;
 
+    position: relative;
+}
 
+#little-head{
+    height: 45px;
+    border: 1px solid grey;
+    text-align: center;
+    border-top: none;
+}
 
+#enterprise{
+    height: 200px;
+    border: 1px solid gray;
+
+    padding: 15px 20px;
+}
+
+.position{
+    position: absolute;
+
+    left: 80%;
+    top: 30%;
+}
+
+div img.partner{
+    width: 50%;
+}
+
+.description-partner{
+    width: 40%;
+}
 
 
 
