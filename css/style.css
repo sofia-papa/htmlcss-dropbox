@@ -94,7 +94,6 @@ header{
     height: 760px;
     border: 1px solid grey;
 
-    
     margin-left: 
 }
 
@@ -140,7 +139,6 @@ nav input{
 div.offerta-padding h2,h4,p{
     margin: 20px 0;
 }
-
 
 i.fas.fa-check{
     color: blue;
@@ -228,7 +226,6 @@ div img.partner{
 
 #img5{
     background-image: url(../img/business-feature-send-files-it.png);
-
 }
 
 #img6{
@@ -268,51 +265,47 @@ div.operations-title h1{
 .bg-colored-img{
     width: 50%;
     height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
 
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+.bg-colored-img img{
+    width: 60%;
+    vertical-align: middle;
 
-    background-size: 100px;
+    filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(314deg) brightness(104%) contrast(101%);
 }
 
 #first-p{
-    background-image: url(../img/designit.svg);
     background-color: lightgreen;
+    border: solid 8px rgb(217, 255, 217);
 }
 
 #second-p{
-    background-image: url(../img/arizona_state_university.svg);
     background-color: brown;
 }
 
 #third-p{
-    background-image: url(../img/university_of_florida.svg);
     background-color: lightskyblue;
 }
 
 #fourth-p{
-    background-image: url(../img/topps.svg);
     background-color: red;
 }
 
 #fifth-p{
-    background-image: url(../img/world_bicycle_relief.svg);
     background-color: lightcoral;
 }
 
 #sixth-p{
-    background-image: url(../img/hearst_corp.svg);
     background-color: lightblue;
 }
 
 #seventh-p{
-    background-image: url(../img/lonely_planet.svg);
     background-color: blue;
 }
 
 #eight-p{
-    background-image: url(../img/clear_channel.svg);
     background-color: yellow;
 }
 
@@ -325,17 +318,45 @@ div.operations-title h1{
     margin: 0 auto;
 
     position: relative;
+    font-family: 'Open Sans', sans-serif ;
 }
 
+#last-part-h1{
+    width: 35%;
+    height: 300px;
 
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    
+    color: purple;
+}
 
+.designit-img img{
+     width: 30%;
+}
 
+.designit-img{
+    width: 40%;
+    padding: 30px;
+    font-family: 'Open Sans', sans-serif ;
+    font-size: 0.8em;
+}
 
+.fivet-title{
+    width: 40%;
+    margin-left: 180px;
+}
 
+#start-trial{
+    position: absolute;
+    top: 40%;
+    left: 60%;
 
-
-
-
+    padding: 8px 50px;
+    font-size: 0.9em;
+    background-color: white;
+}
 
 .fr{
     float:right;
