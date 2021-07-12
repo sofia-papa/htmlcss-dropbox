@@ -30,13 +30,13 @@ section.description-main p{
 
     position: absolute;
     left: 40%;
-    top: 40%;
+    top: 45%;
 }
 
 .big-title{
     padding: 40px;
   
-    font-size: 2.1em;
+    font-size: 1.9em;
     font-size: 'Open Sans', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
@@ -110,7 +110,7 @@ header{
     max-width: 1200px;
     margin: 0 auto;
 
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 div.find-your-plan h2{
@@ -196,7 +196,7 @@ div img.partner{
 }
 
 .little-box{
-    width: 25%;
+    width: 28%;
     font-family: 'Open Sans', sans-serif;
 
     font-size: 0.8em;
@@ -237,7 +237,7 @@ div img.partner{
 }
 
 .box-centre{
-    margin-left: 120px;
+    margin-left: 80px;
 }
 
 div.operations-title h1{
@@ -253,6 +253,78 @@ div.operations-title h1{
 
     position: relative;
     margin-top: 80px;
+}
+
+.four-square{
+    width: 30%;
+    height: 300px;
+}
+
+#middle-part{
+    width: 40%;
+    height: 300px;
+}
+
+.bg-colored-img{
+    width: 50%;
+    height: 150px;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: 100px;
+}
+
+#first-p{
+    background-image: url(../img/designit.svg);
+    background-color: lightgreen;
+}
+
+#second-p{
+    background-image: url(../img/arizona_state_university.svg);
+    background-color: brown;
+}
+
+#third-p{
+    background-image: url(../img/university_of_florida.svg);
+    background-color: lightskyblue;
+}
+
+#fourth-p{
+    background-image: url(../img/topps.svg);
+    background-color: red;
+}
+
+#fifth-p{
+    background-image: url(../img/world_bicycle_relief.svg);
+    background-color: lightcoral;
+}
+
+#sixth-p{
+    background-image: url(../img/hearst_corp.svg);
+    background-color: lightblue;
+}
+
+#seventh-p{
+    background-image: url(../img/lonely_planet.svg);
+    background-color: blue;
+}
+
+#eight-p{
+    background-image: url(../img/clear_channel.svg);
+    background-color: yellow;
+}
+
+.last-part{
+    background-color: lightblue;
+
+    height: 300px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    position: relative;
 }
 
 
