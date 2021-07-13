@@ -92,9 +92,7 @@ header{
 .size-section{
     width: 30%;
     height: 760px;
-    border: 1px solid grey;
-
-    margin-left: 
+    border: 1px solid rgb(232,232,232);
 }
 
 .centralized-box{
@@ -124,7 +122,7 @@ nav input{
 }
 
 .little-header{
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(232,232,232);
     height: 40px;
     text-align: center;
     font-size: smaller;
@@ -155,14 +153,14 @@ i.fas.fa-check{
 
 #little-head{
     height: 45px;
-    border: 1px solid grey;
+    border: 1px solid rgb(232,232,232);
     text-align: center;
     border-top: none;
 }
 
 #enterprise{
     height: 200px;
-    border: 1px solid gray;
+    border: 1px solid rgb(232,232,232);
 
     padding: 15px 20px;
 }
@@ -230,7 +228,6 @@ div img.partner{
 
 #img6{
     background-image: url(../img/business-feature-security.png);
-
 }
 
 .box-centre{
@@ -239,7 +236,6 @@ div img.partner{
 
 div.operations-title h1{
     margin-bottom: 40px;
-
     font-family: 'Open Sans', sans-serif ;
 }
 
@@ -370,4 +366,52 @@ div.operations-title h1{
     content: "";
     display: table;
     clear: both;
+}
+
+.differences-BSV{
+    height: 70px;
+    border: 1px solid rgb(232,232,232);
+    border-left: none;
+    border-right: none;
+    line-height: 70px;
+
+    vertical-align: middle;
+    font-family: 'Open Sans', sans-serif ;
+}
+
+div.team-enterprise h2{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+#footer-color{
+    background-color: black;
+    height: 300px;
+}
+
+.centered-footer{
+    width: 100%;
+}
+
+.single-row{
+    color: white;
+    padding-top: 50px;
+}
+
+.footer-column>ul li{
+    list-style-type: none;
+    margin-left: 60px;
+}
+
+.footer-column h5{
+    margin-left: 90px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul>li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
 }
