@@ -389,9 +389,6 @@ div.team-enterprise h2{
     height: 300px;
 }
 
-.centered-footer{
-    width: 100%;
-}
 
 .single-row{
     color: white;
@@ -414,4 +411,36 @@ ul>li a{
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 0.8em;
+}
+
+.line-solid{
+    width: 60px;
+    height: 5px;
+    border: 1.5px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    margin-left: 90px;
+    margin-top: 70px;
+}
+
+.fas.fa-globe-americas,
+.fas.fa-sort-up{
+
+    color: grey;
+    font-size: 0.8em;
+}
+
+.globe{
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.arrow{
+    vertical-align: bottom;
+}
+
+i.fas.fa-chevron-down{
+    padding-left: 350px;
 }
