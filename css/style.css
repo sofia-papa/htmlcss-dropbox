@@ -5,11 +5,76 @@
     box-sizing: border-box;
 }
 
-section.description-main p{
+nav li{
+    display: inline-block;
+}
+
+li{
+    padding-left: 30px;
+    font-family:'Open Sans', sans-serif;
+    font-size: smaller;
+}
+
+header{
+    height: 80px;
+    background-color: white;
+
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+div img.partner{
+    width: 50%;
+}
+
+nav input{
+    margin-bottom: 40px;
+}
+
+div.find-your-plan h2{
     font-family: 'Open Sans', sans-serif;
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+div.offerta-padding h2,h4,p{
+    margin: 20px 0;
+}
+
+div.operations-title h1{
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif ;
+}
+
+div.team-enterprise h2{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+p.blue-square.start2{
+    text-align: center;
+    margin: 10px 0;
+}
+
+i.fas.fa-chevron-down{
+    padding-left: 350px;
+}
+
+ul>li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+}
+
+i.fas.fa-check{
+    color: blue;
 }
 
 .description-main{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 00.9em;
     width: 30%;
     padding-left: 50px;
     padding-bottom: 50px;
@@ -19,7 +84,6 @@ section.description-main p{
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-
     height: 600px;
     background-color:rgb(145, 189, 229);
     position: relative;
@@ -27,7 +91,6 @@ section.description-main p{
 
 .img-jumbo{
     width: 60%;
-
     position: absolute;
     left: 40%;
     top: 45%;
@@ -35,21 +98,16 @@ section.description-main p{
 
 .big-title{
     padding: 40px;
-  
     font-size: 1.9em;
-    font-size: 'Open Sans', sans-serif;
     font-family: 'Open Sans', sans-serif;
-}
-
-p.blue-square.start2{
-    text-align: center;
-    margin: 10px 0;
 }
 
 .blue-square{
     background-color: blue;
     color: white;
     padding: 8px;  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
 }
 
 .start1{
@@ -70,25 +128,6 @@ p.blue-square.start2{
     padding-top: 8px;
 }
 
-nav li{
-    display: inline-block;
-}
-
-li{
-    padding-left: 30px;
-    font-family:'Open Sans', sans-serif;
-    font-size: smaller;
-}
-
-header{
-    height: 80px;
-    background-color: white;
-
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 .size-section{
     width: 30%;
     height: 760px;
@@ -102,23 +141,10 @@ header{
 .second-main-container{
     margin: 150 130;
     font-family:'Open Sans', sans-serif; 
-
     width: 75%;
     max-width: 1200px;
     margin: 0 auto;
-
     margin-top: 100px;
-}
-
-div.find-your-plan h2{
-    font-family: 'Open Sans', sans-serif;
-    margin-bottom: 40px;
-    font-size: 2em;
-}
-
-nav input{
-    margin-left: 40px;
-    margin-bottom: 40px;
 }
 
 .little-header{
@@ -134,19 +160,14 @@ nav input{
     font-size: 0.8em;
 }
 
-div.offerta-padding h2,h4,p{
-    margin: 20px 0;
-}
-
-i.fas.fa-check{
-    color: blue;
+.fas.fa-arrow-down{
+    font-size: 30px;
 }
 
 .team-enterprise{
     width: 75%;
     max-width: 1200px;
     margin: 0 auto;
-
     position: relative;
     margin-top: 80px;
 }
@@ -159,21 +180,18 @@ i.fas.fa-check{
 }
 
 #enterprise{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
     height: 200px;
     border: 1px solid rgb(232,232,232);
-
     padding: 15px 20px;
 }
 
 .position{
     position: absolute;
-
     left: 80%;
     top: 30%;
-}
-
-div img.partner{
-    width: 50%;
+    font-size: 00.8em;
 }
 
 .description-partner{
@@ -194,14 +212,12 @@ div img.partner{
 .little-box{
     width: 28%;
     font-family: 'Open Sans', sans-serif;
-
     font-size: 0.8em;
 }
 
 .img-bg{
     background-size: contain;
     background-repeat: no-repeat;
-
     width: 100%;
     height: 200px;
 }
@@ -234,16 +250,10 @@ div img.partner{
     margin-left: 80px;
 }
 
-div.operations-title h1{
-    margin-bottom: 40px;
-    font-family: 'Open Sans', sans-serif ;
-}
-
 .team-use-dropbox{
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-
     position: relative;
     margin-top: 80px;
 }
@@ -268,7 +278,6 @@ div.operations-title h1{
 .bg-colored-img img{
     width: 60%;
     vertical-align: middle;
-
     filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(314deg) brightness(104%) contrast(101%);
 }
 
@@ -307,12 +316,10 @@ div.operations-title h1{
 
 .last-part{
     background-color: lightblue;
-
     height: 300px;
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-
     position: relative;
     font-family: 'Open Sans', sans-serif ;
 }
@@ -320,11 +327,9 @@ div.operations-title h1{
 #last-part-h1{
     width: 35%;
     height: 300px;
-
     position: absolute;
     top: 40%;
-    left: 15%;
-    
+    left: 15%; 
     color: purple;
 }
 
@@ -348,7 +353,6 @@ div.operations-title h1{
     position: absolute;
     top: 40%;
     left: 60%;
-
     padding: 8px 50px;
     font-size: 0.9em;
     background-color: white;
@@ -374,21 +378,14 @@ div.operations-title h1{
     border-left: none;
     border-right: none;
     line-height: 70px;
-
     vertical-align: middle;
     font-family: 'Open Sans', sans-serif ;
-}
-
-div.team-enterprise h2{
-    font-family: 'Open Sans', sans-serif;
-    margin-bottom: 20px;
 }
 
 #footer-color{
     background-color: black;
     height: 300px;
 }
-
 
 .single-row{
     color: white;
@@ -406,23 +403,27 @@ div.team-enterprise h2{
     font-family: 'Open Sans', sans-serif;
 }
 
-ul>li a{
-    color: white;
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.8em;
+.grayline{
+    color: gray;
+    padding-bottom: 20px;
 }
 
 .line-solid{
     width: 60px;
     height: 5px;
+    border: 1px solid rgb(232,232,232);
+    border-top: none;
+    border-left: none;
+    border-right: none;  
+}
+
+.line-footer{
+    margin-left: 90px;
+    margin-top: 70px;
     border: 1.5px solid gray;
     border-top: none;
     border-left: none;
-    border-right: none;
-
-    margin-left: 90px;
-    margin-top: 70px;
+    border-right: none;  
 }
 
 .fas.fa-globe-americas,
@@ -441,6 +442,4 @@ ul>li a{
     vertical-align: bottom;
 }
 
-i.fas.fa-chevron-down{
-    padding-left: 350px;
-}
+
